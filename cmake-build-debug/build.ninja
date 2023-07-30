@@ -82,8 +82,8 @@ build Datastruc1.exe: CXX_EXECUTABLE_LINKER__Datastruc1_Debug CMakeFiles/Datastr
 
 build cmake_object_order_depends_target_Datastruc1_0: phony || CMakeFiles/Datastruc1_0.dir
 
-build CMakeFiles/Datastruc1_0.dir/Shagotobhalochele.cpp.obj: CXX_COMPILER__Datastruc1_0_Debug C$:/Users/HP/CLionProjects/Datastruc1/Shagotobhalochele.cpp || cmake_object_order_depends_target_Datastruc1_0
-  DEP_FILE = CMakeFiles\Datastruc1_0.dir\Shagotobhalochele.cpp.obj.d
+build CMakeFiles/Datastruc1_0.dir/Test.cpp.obj: CXX_COMPILER__Datastruc1_0_Debug C$:/Users/HP/CLionProjects/Datastruc1/Test.cpp || cmake_object_order_depends_target_Datastruc1_0
+  DEP_FILE = CMakeFiles\Datastruc1_0.dir\Test.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Datastruc1_0.dir
   OBJECT_FILE_DIR = CMakeFiles\Datastruc1_0.dir
@@ -96,7 +96,7 @@ build CMakeFiles/Datastruc1_0.dir/Shagotobhalochele.cpp.obj: CXX_COMPILER__Datas
 #############################################
 # Link the executable Datastruc1_0.exe
 
-build Datastruc1_0.exe: CXX_EXECUTABLE_LINKER__Datastruc1_0_Debug CMakeFiles/Datastruc1_0.dir/Shagotobhalochele.cpp.obj
+build Datastruc1_0.exe: CXX_EXECUTABLE_LINKER__Datastruc1_0_Debug CMakeFiles/Datastruc1_0.dir/Test.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Datastruc1_0.dir
@@ -139,6 +139,39 @@ build Datastruc1_1.exe: CXX_EXECUTABLE_LINKER__Datastruc1_1_Debug CMakeFiles/Dat
   TARGET_IMPLIB = libDatastruc1_1.dll.a
   TARGET_PDB = Datastruc1_1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Datastruc1_3
+
+
+#############################################
+# Order-only phony target for Datastruc1_3
+
+build cmake_object_order_depends_target_Datastruc1_3: phony || CMakeFiles/Datastruc1_3.dir
+
+build CMakeFiles/Datastruc1_3.dir/pointers/pointerfucntion.cpp.obj: CXX_COMPILER__Datastruc1_3_Debug C$:/Users/HP/CLionProjects/Datastruc1/pointers/pointerfucntion.cpp || cmake_object_order_depends_target_Datastruc1_3
+  DEP_FILE = CMakeFiles\Datastruc1_3.dir\pointers\pointerfucntion.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Datastruc1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\Datastruc1_3.dir\pointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Datastruc1_3
+
+
+#############################################
+# Link the executable Datastruc1_3.exe
+
+build Datastruc1_3.exe: CXX_EXECUTABLE_LINKER__Datastruc1_3_Debug CMakeFiles/Datastruc1_3.dir/pointers/pointerfucntion.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Datastruc1_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Datastruc1_3.exe
+  TARGET_IMPLIB = libDatastruc1_3.dll.a
+  TARGET_PDB = Datastruc1_3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -171,6 +204,8 @@ build Datastruc1_0: phony Datastruc1_0.exe
 
 build Datastruc1_1: phony Datastruc1_1.exe
 
+build Datastruc1_3: phony Datastruc1_3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +214,7 @@ build Datastruc1_1: phony Datastruc1_1.exe
 #############################################
 # Folder: C:/Users/HP/CLionProjects/Datastruc1/cmake-build-debug
 
-build all: phony Datastruc1.exe Datastruc1_0.exe Datastruc1_1.exe
+build all: phony Datastruc1.exe Datastruc1_0.exe Datastruc1_1.exe Datastruc1_3.exe
 
 # =============================================================================
 # Built-in targets
