@@ -1,0 +1,5 @@
+C:/Users/HP/CLionProjects/Datastruc1/cmake-build-debug/CMakeFiles/Datastruc1.dir
+C:/Users/HP/CLionProjects/Datastruc1/cmake-build-debug/CMakeFiles/Datastruc1_0.dir
+C:/Users/HP/CLionProjects/Datastruc1/cmake-build-debug/CMakeFiles/Datastruc1_1.dir
+C:/Users/HP/CLionProjects/Datastruc1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/HP/CLionProjects/Datastruc1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
